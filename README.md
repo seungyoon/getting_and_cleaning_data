@@ -12,10 +12,10 @@ run_analysis.R will read below,
 
 ## Step 1
 Merges the training and the test sets to create one data set.
-1. row bind X_train and X_test
-2. row bind subject_train and subject_test
-3. row bind y_train and y_test
-4. column bind above three sets
+ 1. row bind X_train and X_test
+ 2. row bind subject_train and subject_test
+ 3. row bind y_train and y_test
+ 4. column bind above three sets
 
 ## Step 2 (step 4 in Course Project)
 Appropriately labels the data set with descriptive variable names.
