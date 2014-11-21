@@ -19,24 +19,24 @@ Merges the training and the test sets to create one data set.
 
 ## Step 2 (step 4 in Course Project)
 Appropriately labels the data set with descriptive variable names.
-1. add colnames to data set above from features, add two more columns Subject and Activity.
+ 1. add colnames to data set above from features, add two more columns Subject and Activity.
 
 ## Step 3 (step 3 in Course Project)
 Uses descriptive activity names to name the activities in the data set
-1. compare dataset$Activity values with activity_lables and assign descriptive names
+ 1. compare dataset$Activity values with activity_lables and assign descriptive names
 
 ## Step 4 (step 2 in Course Project)
 Extracts only the measurements on the mean and standard deviation for each measurement.
-1. use grepl to filter colume names which has mean(, std( and Subject and Activity.
-2. use that filter to entire dataset and extract those columes only.
+ 1. use grepl to filter colume names which has mean(, std( and Subject and Activity.
+ 2. use that filter to entire dataset and extract those columes only.
 
 ## Step 5 (step 5 in Course Project)
 From the data set in step 4, creates a second, independent tidy data set
 with the average of each variable for each activity and each subject.
-1. use split function to devide data set above by Subject and Activity
-2. check its colume number, names and consider relocation 
-3. create empty matrix to stack up each splitted subsets with its mean (per subject and activity)
-4. rename colume names to remove (), keep its upper case as making all lower case is not easy to read.
-5. go through each category (list this case) and get its colume means and add into matrix
-6. return final matrix as tidy data set
+ 1. use split function to devide data set above by Subject and Activity
+ 2. check its colume number, names and consider relocation 
+ 3. create empty matrix to stack up each splitted subsets with its mean (per subject and activity)
+ 4. rename colume names to remove (), keep its upper case as making all lower case is not easy to read.
+ 5. go through each category (list this case) and get its colume means and add into matrix
+ 6. return final matrix as tidy data set
 
