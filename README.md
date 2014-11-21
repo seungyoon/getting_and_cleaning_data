@@ -34,7 +34,7 @@ Extracts only the measurements on the mean and standard deviation for each measu
 From the data set in step 4, creates a second, independent tidy data set
 with the average of each variable for each activity and each subject.
  1. use split function to devide data set above by Subject and Activity
- 2. check its colume number, names and consider relocation 
+ 2. check its colume number, names and bring Activity and Subject in front
  3. create empty matrix to stack up each splitted subsets with its mean (per subject and activity)
  4. rename colume names to remove (), keep its upper case as making all lower case is not easy to read.
  5. go through each category (list this case) and get its colume means and add into matrix
